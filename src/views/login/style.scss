@@ -1,0 +1,48 @@
+.login-page {
+  height: 280vw;
+  width: inherit;
+  background-position: top;
+  overflow-y: auto;
+  background-size: cover;
+  .login-from-container {
+    margin: 0 7.2vw;
+    margin-top: 78.134vw;
+    .from-item {
+      margin-top: 5.333vw;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-size: contain;
+      height: 13.333vw;
+      position: relative;
+      .mobile-icon {
+        position: absolute;
+        left: 4.8vw;
+        top: 3.467vw;
+        width: 4.267vw;
+        height: 5.867vw;
+        background-size: contain;
+        display: inline-block;
+        background: url("~@/assets/login/mobile.png") no-repeat 0 center;
+      }
+      .mobile-input {
+        padding-top: 2.667vw;
+        padding-bottom: 2.667vw;
+        line-height: 8vw;
+        padding-left: 10.667vw;
+        vertical-align: top;
+        background: none;
+        border: none;
+        outline: none;
+        font-size: 5.333vw;
+        font-weight: 700;
+        &::-webkit-input-placeholder {
+          color: #B1B1B1;
+          font-weight: normal;
+        }
+      }
+      &.mobile-btn {
+        height: 27.733vw;
+      }
+    }
+  }
+}
